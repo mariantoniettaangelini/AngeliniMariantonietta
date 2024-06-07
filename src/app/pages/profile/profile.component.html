@@ -1,0 +1,23 @@
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-8">I tuoi film preferiti</div>
+            <div class="card mb-4" *ngFor="let fav of favoriteMovies">
+              <img src="{{fav.movie.locandina}}">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h5 class="card-title">{{fav.movie.titolo}}</h5>
+                <p class="card-text">{{fav.movie.genere}}</p>
+              </div>
+            </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="https://placedog.net/200x200" class="card-img-top rounded-circle p-4 " alt="Profile picture">
+              <div class="card-body">
+                <h5 class="card-title">Benvenuto sul tuo profilo</h5>
+                <p class="card-text">{{user.nome}}</p>
+                <button class="btn" ngbNavLink (click)="logout()">Disconnetti</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "email": "luca@email.it",
+      "password": "$2a$10$5okuzHbLkfADYu52gQtyIOJiS4VpkHjfGWIu3fwyblsogsDJFOfbe",
+      "nome": "Luca",
+      "id": 1
+    },
+    {
+      "email": "mario@email.it",
+      "password": "$2a$10$oriMKA9cphpsbw8zlHkz6ubDR6DI0fnDQvuZcMhieon82LdV2y8oe",
+      "nome": "Mario",
+      "id": 2
+    },
+    {
+      "email": "giorgia@email.it",
+      "password": "$2a$10$tLm2qx..qdd1v0LytBwxduGZoFFnW7V9ghpagZUNAxvYNv0SzToBC",
+      "nome": "Giorgia",
+      "id": 3
+    }
+  ],
+  "movies-popular": [
+    {
+      "id": 1,
+      "titolo": "The Lord of the Rings: The Fellowship of the Ring",
+      "genere": "Fantasy",
+      "anno": 2001,
+      "locandina": "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    },
+    {
+      "id": 2,
+      "titolo": "The Lord of the Rings: The Two Towers",
+      "genere": "Fantasy",
+      "anno": 2002,
+      "locandina": "https://image.tmdb.org/t/p/original/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+    },
+    {
+      "id": 3,
+      "titolo": "Star Wars: Episode IV - A New Hope",
+      "genere": "Sci-Fi",
+      "anno": 1977,
+      "locandina": "https://i.ebayimg.com/images/g/MmYAAOSwAOdbPwEF/s-l1600.jpg"
+    },
+    {
+      "id": 4,
+      "titolo": "Star Wars: Episode V - The Empire Strikes Back",
+      "genere": "Sci-Fi",
+      "anno": 1980,
+      "locandina": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "id": 5,
+      "titolo": "Spirited Away",
+      "genere": "Animation",
+      "anno": 2001,
+      "locandina": "https://i.ebayimg.com/images/g/8pMAAOSwtuVa8Ooo/s-l1600.jpg"
+    },
+    {
+      "id": 6,
+      "titolo": "My Neighbor Totoro",
+      "genere": "Animation",
+      "anno": 1988,
+      "locandina": "https://m.media-amazon.com/images/I/81RkM26bXwL._AC_UF1000,1000_QL80_.jpg"
+    }
+  ],
+  "favorites": [
+    {
+      "movie": {
+        "id": 1,
+        "titolo": "The Lord of the Rings: The Fellowship of the Ring",
+        "genere": "Fantasy",
+        "anno": 2001,
+        "locandina": "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+      },
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}

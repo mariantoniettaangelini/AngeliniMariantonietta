@@ -1,0 +1,25 @@
+.container {
+  background-color: #6a84eb;
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3),
+              0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+h4 {
+  font-size: 60px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span {
+  font-size: small;
+  color: white;
+}

@@ -1,0 +1,33 @@
+
+.background-container {
+  background-color: #6a84eb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
+.btn-custom {
+  background-color: white;
+  color: #000;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 2em;
+  height: 3em;
+}
+
+
+.btn-custom:hover {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTeo5qgGpYOq7HXQZQELH5-ZPktu-rKvSYw&s');
+  color: #000;
+}
+
+
+

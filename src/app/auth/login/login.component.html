@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-6 text-center">
+      <h1>Effettua il login</h1>
+      <form class="d-flex flex-column align-items-center">
+        <input class="form-control mb-2" type="email" name="email" placeholder="Inserisci la tua email" [(ngModel)]="authData.email" style="max-width: 100%;">
+        <input class="form-control mb-2" type="password" name="password" placeholder="Inserisci la tua password" [(ngModel)]="authData.password" style="max-width: 100%;">
+        <button (click)="login()" type="button" class="btn btn-primary"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

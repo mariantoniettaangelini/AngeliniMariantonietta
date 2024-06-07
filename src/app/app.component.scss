@@ -1,0 +1,21 @@
+
+
+.background-container {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTeo5qgGpYOq7HXQZQELH5-ZPktu-rKvSYw&s');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+.container {
+  padding: 20px;
+ background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1200px;
+}

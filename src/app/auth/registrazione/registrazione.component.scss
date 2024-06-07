@@ -1,0 +1,22 @@
+.btn-primary {
+  background-color: #6a84eb;
+  color: #000;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 2em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.btn-primary:hover {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTeo5qgGpYOq7HXQZQELH5-ZPktu-rKvSYw&s');
+  color: #000;
+}
+
+.form-control {
+  color:#6a84eb
+}

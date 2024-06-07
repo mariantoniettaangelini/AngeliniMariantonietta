@@ -1,0 +1,25 @@
+<div class="background-container">
+  <div class="container-fluid">
+    <div class="d-flex mt-4">
+      <div ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-pills flex-column" orientation="vertical">
+        <ng-container ngbNavItem="top">
+          <button class="btn btn-light text-dark" ngbNavLink routerLink="/">Home</button>
+        </ng-container>
+        <ng-container ngbNavItem="bottom">
+          <button class="btn btn-light text-dark" ngbNavLink routerLink="/dashboard">I tuoi amici</button>
+        </ng-container>
+        <ng-container ngbNavItem="bottom">
+          <button class="btn btn-light text-dark" ngbNavLink routerLink="/profile">Il mio profilo</button>
+        </ng-container>
+        <ng-container ngbNavItem="middle">
+          <button class="btn btn-light text-dark" ngbNavLink routerLink="/auth">Accedi</button>
+        </ng-container>
+      </div>
+      <div class="ms-4 content-container d-flex justify-content-center align-items-center">
+        <h1>Benvenuto su un sito pezzotto
+          <span>(Coi film)</span>
+        </h1>
+
+      </div>
+    </div>
+
